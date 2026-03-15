@@ -13,13 +13,13 @@ Farmers in India waste 30-40% of irrigation water due to guesswork. This system 
 
 ## 🎯 What This System Predicts
 
+
 | Task | Output |
 |------|--------|
-| Crop Water Requirement | 2.33 mm/day |
-| Soil Fertility Score | 68 / 100 |
-| Fertility Class | High / Medium / Low |
+| Crop Water Requirement | mm/day |
+| Soil Fertility Score | score out of 100 |
+| Soil Fertility Class | High / Medium / Low |
 | Irrigation Decision | YES / NO |
-
 ---
 
 ---
