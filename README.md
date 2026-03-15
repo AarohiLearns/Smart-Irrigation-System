@@ -162,12 +162,6 @@ Smart-Irrigation-ML/
 │
 ├── Smart_Irrigation_ML_Code.ipynb   ← Main Colab notebook
 ├── Smart_Irrigation_FAO56_8000.csv  ← Dataset
-├── models/
-│   ├── model_cwr_ExtraTrees.joblib
-│   ├── model_fert_best.joblib
-│   ├── model_clf_best.joblib
-│   ├── model_irr_best.joblib
-│   └── scaler_*.joblib
 └── README.md
 ```
 
