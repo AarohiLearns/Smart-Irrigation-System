@@ -52,7 +52,7 @@ Raw Data
     ↓
 EDA + Visualization
     ↓
-Feature Engineering (32 → 38 features)
+Feature Engineering (28 → 38 features)
     ↓
 Train / Test Split (80/20)
     ↓
@@ -95,8 +95,9 @@ Save .joblib files
 ---
 
 ## 🌾 Feature Engineering
-
-Started with **32 raw features** → engineered to **38 model features**
+"28 input features → 38 model features
+ after adding 16 engineered features
+ and removing redundant columns"
 
 New features added:
 - `temp_range_C` — daily temperature variation
