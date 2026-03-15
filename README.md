@@ -110,7 +110,7 @@ New features added:
 
 ---
 
-## 🔬 FAO-56 Physics Pipeline (Computed on Pi)
+## 🔬 FAO-56 Physics Pipeline
 
 ```
 Ra  → Extraterrestrial Radiation    (astronomy)
@@ -138,21 +138,6 @@ CWR → Crop Water Requirement        (Ks × ETc - Pe)
 Updated: 6:02 AM
 ```
 
-Farmer receives daily push notification on **Blynk app** at 6AM automatically.
-
----
-
-## 💰 Cost Analysis
-
-| Item | Cost |
-|------|------|
-| Raspberry Pi 5 | ₹7,000 |
-| NPK Sensor | ₹4,500 |
-| All other sensors | ₹6,900 |
-| **Total (one time)** | **₹18,400** |
-
-vs Fasal (competitor): ₹15,000/season recurring
-**Payback period: 1.2 seasons**
 
 ---
 
