@@ -1,6 +1,7 @@
 # 🌱 Smart-Irrigation-System
 
-A real-time crop water requirement prediction system built using FAO-56 Penman-Monteith physics equations and machine learning, deployed on Raspberry Pi 5 for offline edge computing.
+A real-time crop water requirement prediction system built using FAO-56 Penman-Monteith physics equations and machine learning, desgined for deployment 
+ on Raspberry Pi 5.
 
 ---
 
@@ -21,18 +22,6 @@ Farmers in India waste 30-40% of irrigation water due to guesswork. This system 
 
 ---
 
-## 🔧 Hardware Used
-
-| Sensor | Measures |
-|--------|----------|
-| DHT11 | Temperature + Humidity |
-| Soil Moisture Sensor | Soil Moisture % |
-| pH Sensor + ADS1115 | Soil pH |
-| NPK Sensor + MAX485 | Nitrogen, Phosphorus, Potassium |
-| RTC DS3231 | Date + Time |
-| Phone Camera | Crop Health Score |
-| Raspberry Pi 5 | Edge Computing + Deployment |
-
 ---
 
 ## 📊 Dataset
@@ -49,9 +38,9 @@ Farmers in India waste 30-40% of irrigation water due to guesswork. This system 
 ```
 Language:   Python
 Libraries:  NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Joblib
-Platform:   Google Colab (training) → Raspberry Pi 5 (deployment)
-IoT:        ThingSpeak, Blynk
-Hardware:   I2C, RS485, UART protocols
+Platform:   Google Colab 
+
+
 ```
 
 ---
@@ -74,8 +63,7 @@ Model Training (23 models across 4 tasks)
 Evaluation (R², RMSE, MAE, MAPE, CV)
     ↓
 Save .joblib files
-    ↓
-Deploy on Raspberry Pi 5
+
 ```
 
 ---
